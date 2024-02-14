@@ -31,10 +31,9 @@ For more in-depth live-coding specific to each framework, see:
 ### Overview
 Under the hood, HY5 creates a few global variables (`HY5`, `P5`, `H`) which are your keys for talking to each framework's canvas and bridging the gap between p5.js and hydra:
  
-- `HY5` stores delay prefs (for checking canvas ready) and inits `H` instances.
 - `P5` affects p5.js and canvas.
-- `H` affects hydra and canvas.  
-*It's a class, allowing multiple hydras for post-post-processing?! Details below.*
+- `H` affects hydra and canvas.
+- `HY5` stores delay prefs (for checking canvas ready) and inits `H` instances.
 
 ### P5
 *p5.js specific – mostly used in the global code space (not within other functions).*
