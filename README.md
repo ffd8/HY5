@@ -11,7 +11,7 @@ Include it within any project by first including hydra-synth + p5.js, then attac
 ```html
 <script src='https://unpkg.com/hydra-synth'></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ffd8/hy5@main/hy5.js"><\/script>
+<script src="https://cdn.jsdelivr.net/gh/ffd8/hy5@main/hy5.js"></script>
 ```
 
 ## ABOUT
