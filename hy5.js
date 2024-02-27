@@ -122,8 +122,9 @@ HY5.hydraClass = class HY5_HYDRA{
 		if(synth !== ''){
 			window[synth] = this.hydra.synth
 			window[synth].noize = this.hydra.synth.noise
+		}else{
+			window['noize'] = this.hydra.synth.noise // p5/hydra conflict			
 		}
-		window['noize'] = this.hydra.synth.noise // p5/hydra conflict
 		this.canvas = this.hydra.canvas
 		this.prefs = {
 			noSmooth : true,
@@ -132,8 +133,7 @@ HY5.hydraClass = class HY5_HYDRA{
 		this.linkP5()
 	}
 
-	linkP5(canvas){
-
+	linkP5(){
 		// p5 » hydra
 		this.hydra.s.forEach((source) => {
 			source.initP5 = (canvas) => {
