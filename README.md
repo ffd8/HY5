@@ -1,7 +1,7 @@
 # <img src="hy5.svg" style="height:100px;" alt="HY5LIVE logo">
 v 0.1.2  
 cc [teddavis.org](http://teddavis.org) 2024 –  
-hydra 🙏 p5.js live-coding library!
+hydra 🙏 p5.js ~ share visuals between both frameworks!
 
 ## USAGE
 Visit [HY5LIVE](https://hy5live.teddavis.org), to play with it right away! A minimal live-coding editor built for HY5.
@@ -15,7 +15,7 @@ Include it within any project by first including hydra-synth + p5.js, then attac
 ```
 
 ## ABOUT
-[HY5](https://github.com/ffd8/hy5) bridges the gap between [hydra-synth](https://github.com/hydra-synth/hydra-synth) and [p5.js](https://p5js.org), containing a suite of functions for passing visuals between both frameworks (`hydra` » `p5` || `p5` » `hydra`), while enabling global-mode code within both! 
+[HY5](https://github.com/ffd8/hy5) bridges the gap between [hydra-synth](https://github.com/hydra-synth/hydra-synth) and [p5.js](https://p5js.org), containing a suite of functions for sharing visuals between both frameworks (`hydra` » `p5` || `p5` » `hydra`), while enabling global-mode code within both! 
 
 *FYI, global-mode refers to functions of each library being used without a scoped prefix (ie. `p.` or `synth.`) which is commonly used when combining multiple libraries to avoid naming conflicts (ie. both have a `noise()` function). While scoping avoids conflicts, it requires lots of extra characters and easily trips one up when only sometimes being necessary (ie, chaining).*  
 
